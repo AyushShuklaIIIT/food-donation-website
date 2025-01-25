@@ -522,3 +522,16 @@ button:hover {
     font-size: 12px;
     color: #bfc7cc;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 548px) {
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
